@@ -1,0 +1,11 @@
+package mx.edu.potros.practica9
+
+data class User(var firstName: String?= null,
+    var lastName: String?= null,
+    var age: String?=null){
+
+    override fun toString(): String {
+        return super.toString()
+    }
+}
+
